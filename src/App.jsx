@@ -9,9 +9,7 @@ const App = () => {
   const [isOpposite, setIsOpposite] = useState (true);
   const [currentWeather, setCurrentWeather] = useState (0)
   
-  console.log(weather);
   const sucess = pos => {
-    console.log(pos.coords);
     const latitude = pos.coords.latitude;
     const longitude = pos.coords.longitude;
 
