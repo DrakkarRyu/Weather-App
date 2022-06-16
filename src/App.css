@@ -4,10 +4,12 @@ body{
 
 .weatherCard li{
     list-style: none;
+    color: aliceblue;
 }
 
 .weatherCard h2 {
     text-align: center;
+    color: white;
 }
 
 .weatherCard {
@@ -21,7 +23,8 @@ body{
     cursor: default;
     text-align: left;
     justify-content: center;
-    background-color: hsl(182, 69%, 38%);
+    background-color: #191b24;
+    opacity: 85%;
 }
 .buttonConvertion:hover {
     box-shadow:5px 5px 5px #f70202d7;
